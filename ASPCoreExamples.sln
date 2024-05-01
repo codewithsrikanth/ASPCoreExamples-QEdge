@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34818.151
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebCoreFirst", "WebCoreFirst\WebCoreFirst.csproj", "{2B39A2A7-217A-4327-B55C-FD2EC4F18CC1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebCoreFirst", "WebCoreFirst\WebCoreFirst.csproj", "{2B39A2A7-217A-4327-B55C-FD2EC4F18CC1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebCoreMVCFirstApp", "WebCoreMVCFirstApp\WebCoreMVCFirstApp.csproj", "{DF7B440E-981C-4C50-975F-12EAE4D5FA2C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebCoreMVCFirstApp", "WebCoreMVCFirstApp\WebCoreMVCFirstApp.csproj", "{DF7B440E-981C-4C50-975F-12EAE4D5FA2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticFilesInCore", "StaticFilesInCore\StaticFilesInCore.csproj", "{14066AE3-CE25-4A3D-8C55-2B9EDC42DE27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCCoreBasic", "MVCCoreBasic\MVCCoreBasic.csproj", "{A194681F-253B-4440-930C-D89F19D98114}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{DF7B440E-981C-4C50-975F-12EAE4D5FA2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF7B440E-981C-4C50-975F-12EAE4D5FA2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF7B440E-981C-4C50-975F-12EAE4D5FA2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14066AE3-CE25-4A3D-8C55-2B9EDC42DE27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14066AE3-CE25-4A3D-8C55-2B9EDC42DE27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14066AE3-CE25-4A3D-8C55-2B9EDC42DE27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14066AE3-CE25-4A3D-8C55-2B9EDC42DE27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A194681F-253B-4440-930C-D89F19D98114}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A194681F-253B-4440-930C-D89F19D98114}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A194681F-253B-4440-930C-D89F19D98114}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A194681F-253B-4440-930C-D89F19D98114}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
