@@ -1,0 +1,24 @@
+﻿@{
+	Layout = null;
+}
+<!DOCTYPE>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>@ViewData["Title"]</title>
+</head>
+<body>
+	<h2>@ViewData["Header"]</h2>
+	<div>
+		@{
+			var student = ViewData["student"] as DataSharingMVCCoreApp.Models.Student;
+		}
+		<div>
+			Student ID: @student?.StudentId <br />
+			Student Name: @student?.Name <br />
+			Student Branch: @student?.Branch <br />
+			Student Section: @student?.Section <br />
+			Student Gender: @student?.Gender <br />
+		</div>
+	</div>
+</body>
+</html>
