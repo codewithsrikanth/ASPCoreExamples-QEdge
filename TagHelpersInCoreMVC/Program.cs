@@ -10,7 +10,9 @@ namespace TagHelpersInCoreMVC
 
 			// Add services to the container.
 			builder.Services.AddControllersWithViews();
+
 			builder.Services.AddScoped<IEmpRepository,EmpRepository>();
+
 			var app = builder.Build();
 
 			// Configure the HTTP request pipeline.
