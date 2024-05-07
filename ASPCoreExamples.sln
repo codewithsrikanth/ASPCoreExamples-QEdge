@@ -13,9 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVCCoreBasic", "MVCCoreBasi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVCWebApp1", "MVCWebApp1\MVCWebApp1.csproj", "{5597C4B0-FDF4-46DE-81E9-97FA41033C22}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataSharingMVCCoreApp", "DataSharingMVCCoreApp\DataSharingMVCCoreApp.csproj", "{DF9B4C87-5EB5-4ECC-87DE-24873728F9CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataSharingMVCCoreApp", "DataSharingMVCCoreApp\DataSharingMVCCoreApp.csproj", "{DF9B4C87-5EB5-4ECC-87DE-24873728F9CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TagHelpersInCoreMVC", "TagHelpersInCoreMVC\TagHelpersInCoreMVC.csproj", "{64E912BF-F08D-4A04-A653-4DB681023E14}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TagHelpersInCoreMVC", "TagHelpersInCoreMVC\TagHelpersInCoreMVC.csproj", "{64E912BF-F08D-4A04-A653-4DB681023E14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StateManagementCoreApp", "StateManagementCoreApp\StateManagementCoreApp.csproj", "{05C18F53-4253-4BC4-98F6-18F3E9F622DD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{64E912BF-F08D-4A04-A653-4DB681023E14}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64E912BF-F08D-4A04-A653-4DB681023E14}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64E912BF-F08D-4A04-A653-4DB681023E14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05C18F53-4253-4BC4-98F6-18F3E9F622DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05C18F53-4253-4BC4-98F6-18F3E9F622DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05C18F53-4253-4BC4-98F6-18F3E9F622DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05C18F53-4253-4BC4-98F6-18F3E9F622DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
