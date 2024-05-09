@@ -17,7 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataSharingMVCCoreApp", "Da
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TagHelpersInCoreMVC", "TagHelpersInCoreMVC\TagHelpersInCoreMVC.csproj", "{64E912BF-F08D-4A04-A653-4DB681023E14}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StateManagementCoreApp", "StateManagementCoreApp\StateManagementCoreApp.csproj", "{05C18F53-4253-4BC4-98F6-18F3E9F622DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StateManagementCoreApp", "StateManagementCoreApp\StateManagementCoreApp.csproj", "{05C18F53-4253-4BC4-98F6-18F3E9F622DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SessionsInMVCCore", "SessionsInMVCCore\SessionsInMVCCore.csproj", "{9125E15C-18C6-45BB-9DC5-92275507971E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{05C18F53-4253-4BC4-98F6-18F3E9F622DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05C18F53-4253-4BC4-98F6-18F3E9F622DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{05C18F53-4253-4BC4-98F6-18F3E9F622DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9125E15C-18C6-45BB-9DC5-92275507971E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9125E15C-18C6-45BB-9DC5-92275507971E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9125E15C-18C6-45BB-9DC5-92275507971E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9125E15C-18C6-45BB-9DC5-92275507971E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

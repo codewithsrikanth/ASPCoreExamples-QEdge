@@ -1,0 +1,15 @@
+﻿@using Microsoft.AspNetCore.Http;
+@inject IHttpContextAccessor HttpContextAccessor;
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-left">
+    <b>User ID: </b>
+    @HttpContextAccessor?.HttpContext?.Session.GetString("_UserId")
+    <br />
+    <b>User Name: </b>
+    @HttpContextAccessor?.HttpContext?.Session.GetString("_UserName")
+    <br />
+</div>
